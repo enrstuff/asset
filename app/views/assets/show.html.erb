@@ -1,0 +1,32 @@
+<td> <FONT COLOR="#000080" align="center" font size=8> Liverpool John Moores University </FONT></td>
+<br>
+<br> 
+
+<p>
+  <b>It asset:</b>
+  <%=h @asset.i_t_asset %>
+</p>
+
+<p>
+  <b>Cost:</b>
+  <%=h @asset.cost %>
+</p>
+
+<p>
+  <b>Reference:</b>
+  <%=h @asset.reference %>
+</p>
+
+<p>
+  <b>Room:</b>
+  <%=h @asset.room %>
+</p>
+
+<p>
+  <b>Date installed:</b>
+  <%=h @asset.date_installed %>
+</p>
+
+
+<%= link_to 'Edit', edit_asset_path(@asset) %> |
+<%= link_to 'Back', assets_path %>

@@ -1,0 +1,35 @@
+<td> <FONT COLOR="#000080" align="center" font size=8> Liverpool John Moores University </FONT></td>
+<br>
+<br> 
+
+<h1>New asset</h1>
+
+<% form_for(@asset) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :i_t_asset %><br />
+    <%= f.text_field :i_t_asset %>
+  </p>
+  <p>
+    <%= f.label :cost %><br />
+    <%= f.text_field :cost %>
+  </p>
+  <p>
+    <%= f.label :reference %><br />
+    <%= f.text_field :reference %>
+  </p>
+  <p>
+    <%= f.label :room %><br />
+    <%= f.text_field :room %>
+  </p>
+  <p>
+    <%= f.label :date_installed %><br />
+    <%= f.date_select :date_installed %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', assets_path %>

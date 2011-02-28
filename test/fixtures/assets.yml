@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  i_t_asset: MyString
+  cost: MyString
+  reference: MyString
+  room: MyString
+  date_installed: 2011-02-18
+
+two:
+  i_t_asset: MyString
+  cost: MyString
+  reference: MyString
+  room: MyString
+  date_installed: 2011-02-18
